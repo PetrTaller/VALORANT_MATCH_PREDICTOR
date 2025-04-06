@@ -149,9 +149,6 @@ def parse_match(url):
         if year:
             date = f"{day}-{month}-{year}"
 
-
-
-
     # --- Extract patch version ---
     patch = None
     patch_string = soup.find(string=re.compile(r"Patch\s*[\d\.]+"))
