@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 3. Run the Application
 
-streamlit run app.py
+python -m streamlit run app.py
 
 ## File Structure ##
 
